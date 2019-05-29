@@ -102,7 +102,7 @@ Word** lectura_texto(char* nombreArchivo)
 		
 		j = 0;
 		SIZE_MAX_PALABRA = 30;
-		while(caracter != '\n' && caracter != 32 )
+		while(caracter != '\n' && caracter != 32 && caracter != EOF)
 		{
 			if(caracter <=89 && caracter>=65)
 				caracter+=32;
