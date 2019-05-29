@@ -3,6 +3,7 @@
 #include <string.h>
 #include <locale.h>
 #include "hash.h"
+#include "hash.c"
 
 
 typedef struct _Word
